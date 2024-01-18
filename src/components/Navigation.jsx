@@ -1,9 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
 function Navigation() {
-  {
-    /* Used to get path of current url */
-  }
+  // Used to get path of current url
   const currentPage = useLocation().pathname;
 
   return (
