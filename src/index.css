@@ -1,3 +1,25 @@
+:root {
+  --bkgrd-color1: #0fc2c0;
+  --bkgrd-color2: #0caba8;
+  --bkgrd-color3: #008f8c;
+  --bkgrd-color4: #015958;
+  --bkgrd-color5: #023535;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-color: var(--bkgrd-color3);
+}
+
 a {
-  color: #023535;
+  color: white;
+
+  &:hover {
+    color: var(--bkgrd-color4);
+  }
 }

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <div className="container-fluid" style={{ backgroundColor: '#0FC2C0' }}>
+    <div className="container-fluid">
       <header className="d-flex justify-content-center py-3">
         <ul className="nav nav-pills">
           <li className="nav-link">
