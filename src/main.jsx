@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 
 import App from './App.jsx';
 import About from './pages/About';
@@ -9,8 +10,6 @@ import Contact from './pages/Contact.jsx';
 import Home from './pages/Home.jsx';
 import Projects from './pages/Projects.jsx';
 import Resume from './pages/Resume.jsx';
-
-import './index.css';
 
 const router = createBrowserRouter([
   {
