@@ -1,4 +1,7 @@
 :root {
+  --text-color1: #ffffff;
+  --text-color2: #f2f2f2;
+
   --bkgrd-color1: #0fc2c0;
   --bkgrd-color2: #0caba8;
   --bkgrd-color3: #008f8c;
@@ -8,7 +11,7 @@
 
 * {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: var(--text-color1);
   font-size: 20px;
 }
 
@@ -17,9 +20,9 @@ body {
 }
 
 a {
-  color: white;
+  color: var(--text-color1);
+}
 
-  &:hover {
-    color: var(--bkgrd-color4);
-  }
+a:hover {
+  color: var(--text-color2);
 }
