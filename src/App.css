@@ -2,6 +2,19 @@
   background-color: var(--bkgrd-color1);
 }
 
+.nav-pills .nav-link,
+.nav-pills .nav-link.active:hover {
+  color: var(--text-color1);
+}
+
+.nav-pills .nav-link:hover {
+  color: var(--text-color2);
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--bkgrd-color2);
+}
+
 .footer-container {
   position: fixed;
   left: 0px;
