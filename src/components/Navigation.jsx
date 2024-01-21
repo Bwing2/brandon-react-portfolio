@@ -13,7 +13,9 @@ function Navigation() {
 
   return (
     <div className="nav-container">
-      <img src={logo} alt="Logo" className="logo" />
+      <Link to="/">
+        <img src={logo} alt="Logo" className="logo" />
+      </Link>
       <ul className="nav nav-pills">
         {navArray.map((item) => (
           <li className="nav-item" key={item.path}>
