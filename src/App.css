@@ -80,6 +80,10 @@
   border: 3px solid var(--bkgrd-color2);
 }
 
+.about-paragraph {
+  margin-left: 10%;
+}
+
 @media (max-width: 850px) {
   .nav-container {
     flex-direction: column;

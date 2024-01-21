@@ -6,7 +6,7 @@ export default function About() {
       <h1>About Me</h1>
       <div className="info-div">
         <div className="paragraph-div">
-          <p>
+          <p className="about-paragraph">
             Hello my name is Brandon Wing, an aspiring full stack software
             engineer with a background in business management and quality
             assurance software testing. I am on a journey to transition my
@@ -17,7 +17,7 @@ export default function About() {
             also reflects myself.
           </p>
 
-          <p>
+          <p className="about-paragraph">
             With a strong foundation in business administration, I bring to the
             table organizational skills honed through managing CRM databases,
             planning events, and crafting content for clients. My experience in
