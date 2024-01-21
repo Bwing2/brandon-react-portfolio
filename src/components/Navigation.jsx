@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../images/logo.png';
 
 function Navigation() {
   const selectedPage = useLocation().pathname;
@@ -11,20 +12,23 @@ function Navigation() {
   ];
 
   return (
-    <ul className="nav nav-pills">
-      {navArray.map((item) => (
-        <li className="nav-item" key={item.path}>
-          <Link
-            to={item.path}
-            className={
-              selectedPage === item.path ? 'nav-link active' : 'nav-link'
-            }
-          >
-            {item.name}
-          </Link>
-        </li>
-      ))}
-    </ul>
+    <div className="nav-container">
+      <img src={logo} alt="Logo" className="logo" />
+      <ul className="nav nav-pills">
+        {navArray.map((item) => (
+          <li className="nav-item" key={item.path}>
+            <Link
+              to={item.path}
+              className={
+                selectedPage === item.path ? 'nav-link active' : 'nav-link'
+              }
+            >
+              {item.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
