@@ -26,3 +26,12 @@ a {
 a:hover {
   color: var(--text-color2);
 }
+
+h1,
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 10%;
+}

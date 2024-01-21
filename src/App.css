@@ -41,3 +41,12 @@
 .custom-button-color {
   color: var(--text-color1);
 }
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
