@@ -1,5 +1,5 @@
 function Footer() {
-  const links = [
+  const linksArray = [
     {
       href: 'https://github.com/Bwing2',
       imgSrc: '/github.svg',
@@ -24,7 +24,7 @@ function Footer() {
     <div className="container-fluid footer-container">
       <footer className="d-flex justify-content-center py-3">
         <ul className="nav nav-pills">
-          {links.map((link, index) => (
+          {linksArray.map((link, index) => (
             <li key={index} className="nav-link">
               <a href={link.href} className="text-decoration-none footer-link">
                 <img src={link.imgSrc} alt={link.imgAlt} />
