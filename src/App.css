@@ -1,4 +1,5 @@
-.container-fluid {
+.container-fluid,
+.custom-background-color {
   background-color: var(--bkgrd-color1);
 }
 
@@ -11,7 +12,8 @@
   color: var(--text-color2);
 }
 
-.nav-pills .nav-link.active {
+.nav-pills .nav-link.active,
+.custom-button-color:hover {
   background-color: var(--bkgrd-color2);
 }
 
@@ -26,4 +28,16 @@
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.custom-border-1 {
+  border-bottom: solid var(--bkgrd-color3);
+}
+
+.custom-border-2 {
+  border-top: solid var(--bkgrd-color3);
+}
+
+.custom-button-color {
+  color: var(--text-color1);
 }

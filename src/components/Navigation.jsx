@@ -4,9 +4,8 @@ function Navigation() {
   const selectedPage = useLocation().pathname;
 
   const navArray = [
-    { path: '/', name: 'Home' },
     { path: '/about', name: 'About Me' },
-    { path: '/projects', name: 'Projects' },
+    { path: '/portfolio', name: 'Portfolio' },
     { path: '/resume', name: 'Resume' },
     { path: '/contact', name: 'Contact' },
   ];
