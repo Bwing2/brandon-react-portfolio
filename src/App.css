@@ -145,6 +145,23 @@
   flex-direction: column;
 }
 
+/* Resume Page */
+.resume-div,
+.resume-download {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.resume-download {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
 @media (max-width: 850px) {
   /* Header and Footer */
   .nav-container {
@@ -199,5 +216,10 @@
 
   .project-img {
     display: none;
+  }
+
+  /* Resume Page */
+  .resume-img {
+    width: 100%;
   }
 }
