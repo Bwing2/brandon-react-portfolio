@@ -17,7 +17,8 @@
 }
 
 .container-fluid,
-.custom-background-color {
+.custom-background-color,
+.custom-button-color {
   background-color: var(--bkgrd-color1);
 }
 
@@ -125,6 +126,7 @@
 
 .links-div {
   margin-top: 5%;
+  justify-content: space-evenly;
 }
 
 .language-badge {
@@ -133,6 +135,14 @@
   background-color: var(--bkgrd-color2);
   font-weight: bold;
   font-size: 15px;
+}
+
+/* Contact Form Page*/
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 850px) {

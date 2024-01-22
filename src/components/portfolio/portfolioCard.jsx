@@ -25,7 +25,7 @@ export default function PortfolioCard({ project, className }) {
           <img
             className="project-img"
             src={project.imgSrc}
-            alt={project.name}
+            alt={project.imgAlt}
           />
         </div>
       </div>
