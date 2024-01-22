@@ -11,10 +11,14 @@ export default function PortfolioCard({ project }) {
                 {language}
               </span>
             ))}
-            <div className="links-div">
-              <a href={project.hrefDeployed}>Deployed App</a>
-              <a href={project.hrefGithub}>GitHub Repo</a>
-            </div>
+          </div>
+          <div className="links-div">
+            <a href={project.hrefDeployed} className="btn custom-button-color">
+              Deployed App
+            </a>
+            <a href={project.hrefGithub} className="btn custom-button-color">
+              GitHub Repo
+            </a>
           </div>
         </div>
         <div className="r-project-div">
