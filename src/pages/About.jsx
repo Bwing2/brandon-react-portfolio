@@ -35,7 +35,7 @@ export default function About() {
         <div className="img-div">
           <img
             src={profilePic}
-            alt="brandon profile picture"
+            alt="Brandon Profile Picture"
             className="profile-pic"
           ></img>
         </div>
