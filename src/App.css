@@ -159,8 +159,22 @@
 
   .project-div {
     grid-template-columns: 1fr;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url('./images/sat_seeker.png');
+  }
+
+  .project-0 {
+    background: var(--bkgrd-style), url('./images/sat_seeker.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .project-1 {
+    background: var(--bkgrd-style), url('./images/rocket_launch_info.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .project-2 {
+    background: var(--bkgrd-style), url('./images/weather_app.png');
     background-size: cover;
     background-position: center;
   }

@@ -1,7 +1,7 @@
-export default function PortfolioCard({ project }) {
+export default function PortfolioCard({ project, className }) {
   return (
     <div className="project-container">
-      <div className="project-div">
+      <div className={`project-div ${className}`}>
         <div className="l-project-div">
           <h2>{project.name}</h2>
           <p>{project.description}</p>
