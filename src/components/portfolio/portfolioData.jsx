@@ -1,6 +1,7 @@
 import project0 from '../../images/sat_seeker.png';
-import project1 from '../../images/rocket_launch_info.png';
-import project2 from '../../images/weather_app.png';
+import project1 from '../../images/dota_api_website.png';
+import project2 from '../../images/rocket_launch_info.png';
+import project3 from '../../images/weather_app.png';
 
 export const portfolioData = [
   {
@@ -14,6 +15,16 @@ export const portfolioData = [
     imgAlt: 'Satellite Seeker Search Page',
   },
   {
+    name: 'Dota Longest and Shortest Game Stats',
+    description:
+      "A web page that uses the OpenDota API to check a steam user's ID for their longest and shortest game stats.",
+    hrefGithub: 'https://github.com/Bwing2/brandon-dota-api-website',
+    hrefDeployed: 'https://bwing2.github.io/brandon-dota-api-website/',
+    languages: ['HTML', 'CSS', 'Javascript', 'Server-Side API'],
+    imgSrc: project1,
+    imgAlt: 'Dota Longest and Shortest Game Stats Search Page',
+  },
+  {
     name: 'Rocket Launches and News Database',
     description:
       'A web app that will allow you to search current, past, or upcoming launches. Also includes up-to-date space news. ',
@@ -22,7 +33,7 @@ export const portfolioData = [
     hrefDeployed:
       'https://sparkkids.github.io/rocket-launches-and-news-database-group-project/',
     languages: ['HTML', 'CSS', 'Tailwind', 'Javascript'],
-    imgSrc: project1,
+    imgSrc: project2,
     imgAlt: 'Rocket Launches and News Database Search Page',
   },
   {
@@ -34,7 +45,7 @@ export const portfolioData = [
     hrefDeployed:
       'https://bwing2.github.io/brandon-weather-dashboard-challenge-6/',
     languages: ['HTML', 'CSS', 'Javascript', 'Server-Side API'],
-    imgSrc: project2,
-    imgAlt: 'Rocket Launches and News Database Search Page',
+    imgSrc: project3,
+    imgAlt: 'Weather Dashboard Search Page',
   },
 ];
