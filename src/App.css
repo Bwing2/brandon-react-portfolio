@@ -136,10 +136,12 @@
 }
 
 @media (max-width: 850px) {
+  /* Header and Footer */
   .nav-container {
     flex-direction: column;
   }
 
+  /* About Me Page */
   .info-div {
     display: flex;
     flex-direction: column;
@@ -157,6 +159,7 @@
     height: 200px;
   }
 
+  /* Portfolio Page */
   .project-div {
     grid-template-columns: 1fr;
   }
@@ -168,12 +171,17 @@
   }
 
   .project-1 {
-    background: var(--bkgrd-style), url('./images/rocket_launch_info.png');
+    background: var(--bkgrd-style), url('./images/dota_api_website.png');
     background-size: cover;
     background-position: center;
   }
 
   .project-2 {
+    background: var(--bkgrd-style), url('./images/rocket_launch_info.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .project-3 {
     background: var(--bkgrd-style), url('./images/weather_app.png');
     background-size: cover;
     background-position: center;
