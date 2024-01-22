@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { validateEmail } from './utils/helpers';
 
 function ContactForm() {
   const [name, setName] = useState('');
@@ -30,8 +31,24 @@ function ContactForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    if (!name || !email || !message) {
-      alert('Please fill out all fields.');
+    let errorMessage = '';
+
+    switch (true) {
+      case !name:
+        errorMessage += 'Please enter a name.';
+        break;
+      case !email || !validateEmail(email):
+        errorMessage += 'Please enter a valid email.';
+        break;
+      case !message:
+        errorMessage += 'Please enter a message.';
+        break;
+      default:
+        break;
+    }
+
+    if (errorMessage) {
+      alert(errorMessage);
       return;
     }
 
