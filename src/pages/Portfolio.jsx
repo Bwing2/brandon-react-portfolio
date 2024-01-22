@@ -6,7 +6,11 @@ export default function Portfolio() {
     <div>
       <h1>Portfolio</h1>
       {portfolioData.map((project, index) => (
-        <PortfolioCard key={index} project={project} />
+        <PortfolioCard
+          key={index}
+          project={project}
+          className={`project-${index}`}
+        />
       ))}
     </div>
   );
