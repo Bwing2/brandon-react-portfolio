@@ -204,11 +204,24 @@
   }
 
   .project-2 {
+    background: var(--bkgrd-style), url('./images/mvc_blog_homepage.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .project-3 {
     background: var(--bkgrd-style), url('./images/rocket_launch_info.png');
     background-size: cover;
     background-position: center;
   }
-  .project-3 {
+
+  .project-4 {
+    background: var(--bkgrd-style), url('./images/get_route_nosql.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .project-5 {
     background: var(--bkgrd-style), url('./images/weather_app.png');
     background-size: cover;
     background-position: center;
