@@ -13,7 +13,7 @@ function Footer() {
       text: 'LinkedIn',
     },
     {
-      href: '/mailto:brandon.wing245@gmail.com',
+      href: 'mailto:brandon.wing245@gmail.com',
       imgSrc: '/email.svg',
       imgAlt: 'email svg icon',
       text: 'Email',
