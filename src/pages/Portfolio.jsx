@@ -1,4 +1,4 @@
-import PortfolioCard from '../components/portfolio/portfolioCard';
+import PortfolioCard from '../components/portfolio';
 import { portfolioData } from '../components/portfolio/portfolioData';
 
 export default function Portfolio() {
