@@ -16,8 +16,8 @@ Welcome to my personal portfolio website built with React, Bootstrap, Vite, Node
 
 ## Installation
 
-1. Clone the repository using the command `git clone https://github.com/your-username/your-portfolio.git`
-2. Navigate to the project directory: `cd brandom-react-portfolio`
+1. Clone the repository using the command `git clone https://github.com/bwing2/brandon-react-portfolio.git`
+2. Navigate to the project directory: `cd brandon-react-portfolio`
 3. Install dependencies: `npm i`
 
 List of all installed dependencies:
