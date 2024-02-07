@@ -1,4 +1,8 @@
-import profilePic from '../images/brandon_profile_pic.png';
+import Carousel from "react-bootstrap/Carousel";
+
+import profilePic from "../images/brandon_profile_pic.png";
+import taiwanPic from "../images/taiwan_vacation.jpg";
+import graduationPic from "../images/graduation.jpg";
 
 export default function About() {
   return (
@@ -33,11 +37,29 @@ export default function About() {
         </div>
 
         <div className="img-div">
-          <img
-            src={profilePic}
-            alt="Brandon Profile Picture"
-            className="profile-pic"
-          ></img>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={profilePic}
+                alt="profile picture"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={taiwanPic}
+                alt="taiwan picture with my sister"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={graduationPic}
+                alt="graduation picture"
+              />
+            </Carousel.Item>
+          </Carousel>
         </div>
       </div>
     </div>
