@@ -150,16 +150,24 @@
 .resume-download {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .resume-div {
   width: 80%;
+  gap: 20px;
+  align-items: center;
   margin: 0 auto;
 }
 
 .resume-download {
   max-width: 300px;
   margin: 20px auto;
+}
+
+.resume-img {
+  width: 50%;
+  height: auto;
 }
 
 @media (max-width: 850px) {
@@ -192,37 +200,37 @@
   }
 
   .project-0 {
-    background: var(--bkgrd-style), url('./images/sat_seeker.png');
+    background: var(--bkgrd-style), url("./images/sat_seeker.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-1 {
-    background: var(--bkgrd-style), url('./images/dota_api_website.png');
+    background: var(--bkgrd-style), url("./images/dota_api_website.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-2 {
-    background: var(--bkgrd-style), url('./images/mvc_blog_homepage.png');
+    background: var(--bkgrd-style), url("./images/mvc_blog_homepage.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-3 {
-    background: var(--bkgrd-style), url('./images/rocket_launch_info.png');
+    background: var(--bkgrd-style), url("./images/rocket_launch_info.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-4 {
-    background: var(--bkgrd-style), url('./images/get_route_nosql.png');
+    background: var(--bkgrd-style), url("./images/get_route_nosql.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-5 {
-    background: var(--bkgrd-style), url('./images/weather_app.png');
+    background: var(--bkgrd-style), url("./images/weather_app.png");
     background-size: cover;
     background-position: center;
   }
@@ -232,6 +240,10 @@
   }
 
   /* Resume Page */
+  .resume-div {
+    flex-direction: column;
+  }
+
   .resume-img {
     width: 100%;
   }
