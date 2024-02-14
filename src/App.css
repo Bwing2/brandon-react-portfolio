@@ -215,36 +215,42 @@
   }
 
   .project-0 {
-    background: var(--bkgrd-style), url("./images/sat_seeker.png");
+    background: var(--bkgrd-style), url("./images/just_eat_it.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-1 {
-    background: var(--bkgrd-style), url("./images/dota_api_website.png");
+    background: var(--bkgrd-style), url("./images/sat_seeker.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-2 {
-    background: var(--bkgrd-style), url("./images/mvc_blog_homepage.png");
+    background: var(--bkgrd-style), url("./images/dota_api_website.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-3 {
-    background: var(--bkgrd-style), url("./images/rocket_launch_info.png");
+    background: var(--bkgrd-style), url("./images/mvc_blog_homepage.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-4 {
-    background: var(--bkgrd-style), url("./images/get_route_nosql.png");
+    background: var(--bkgrd-style), url("./images/rocket_launch_info.png");
     background-size: cover;
     background-position: center;
   }
 
   .project-5 {
+    background: var(--bkgrd-style), url("./images/get_route_nosql.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .project-6 {
     background: var(--bkgrd-style), url("./images/weather_app.png");
     background-size: cover;
     background-position: center;
