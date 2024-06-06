@@ -29,6 +29,16 @@ export const portfolioData = [
     imgAlt: "Just Eat It Homepage",
   },
   {
+    name: "Dota API Website",
+    description:
+      "A web app that uses the OpenDota API to check a steam user's ID or match ID to display the data.",
+    hrefGithub: "https://github.com/Bwing2/dota-api-website-2",
+    hrefDeployed: "https://dota-api-website-2.netlify.app/",
+    languages: ["HTML", "CSS", "Javascript", "Server-Side API"],
+    imgSrc: project2,
+    imgAlt: "Dota Longest and Shortest Game Stats Search Page",
+  },
+  {
     name: "Satellite Seeker",
     description:
       "A web app that can track current satellite location data using a noradID. Also incorporates login functionality.",
@@ -37,16 +47,6 @@ export const portfolioData = [
     languages: ["Javascript", "MySQL", "Node.js", "Express.js", "Handlebars"],
     imgSrc: project1,
     imgAlt: "Satellite Seeker Search Page",
-  },
-  {
-    name: "Dota Longest and Shortest Game Stats",
-    description:
-      "A web page that uses the OpenDota API to check a steam user's ID for their longest and shortest game stats.",
-    hrefGithub: "https://github.com/Bwing2/brandon-dota-api-website",
-    hrefDeployed: "https://bwing2.github.io/brandon-dota-api-website/",
-    languages: ["HTML", "CSS", "Javascript", "Server-Side API"],
-    imgSrc: project2,
-    imgAlt: "Dota Longest and Shortest Game Stats Search Page",
   },
   {
     name: "Cool Ideas Blog",
