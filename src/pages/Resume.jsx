@@ -6,7 +6,7 @@ export default function Resume() {
     <div className="resume-container">
       <h1>Resume</h1>
       <a
-        href="https://drive.google.com/file/d/1GqCki3tQ4NzJ0YpdtWAxxf8BRcbjw-al/view?usp=sharing"
+        href="https://drive.google.com/file/d/1oV-TussLP_GVMOhlnlbKfXsFDLqv9g4D/view"
         className="btn custom-button-color resume-download"
       >
         Link to Download
