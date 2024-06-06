@@ -53,11 +53,11 @@ There are four different sections in this application, the About Me, Portfolio, 
 
 ### Portfolio Page
 
-![Portfolio Page](./src/images/Portfolio_page.png)
+![Portfolio Page](./src/images/Portfolio_page1.png)
 
 ### Resume Page
 
-![Resume Page](./src/images/Resume_page.png)
+![Resume Page](./src/images/Resume_page1.png)
 
 ### Contact Page
 
